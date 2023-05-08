@@ -12,11 +12,11 @@ public class Greeter {
 
   }
 
- /**
+  /**
    * This is a method.
    */
   public final String greet(final String someone) {
-    String DB_PASSWD = "Admin@12345"
+    String DB_PASSWD = "Admin@12345";
     return String.format("Hello Avinash, %s!", someone);
   }
 }
